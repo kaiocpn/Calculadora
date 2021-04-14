@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class calculadora {
 
 	public static void main(String[] args) {
-		operadores op = new operadores();
+	
 		Scanner ler = new Scanner(System.in);
 
 		double n1, n2, soma,simbolo;
@@ -13,7 +13,7 @@ public class calculadora {
 		n1 = ler.nextDouble();
 		System.out.println("Digite o segundo numero: ");
 		n2 = ler.nextDouble();
-		System.out.println(" 1 - Soma / 2 - SubtraÁ„o / 3 - MultiplicaÁ„o / 4 - Divis„o");
+		System.out.println(" 1 - Soma / 2 - Subtra√ß√£o / 3 - Multiplica√ß√£o / 4 - Divis√£o");
 		simbolo = ler.nextDouble();
 
 		if (simbolo == 1) {
